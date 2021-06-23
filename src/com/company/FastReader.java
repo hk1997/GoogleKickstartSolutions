@@ -15,7 +15,7 @@ public  class FastReader {
                 new InputStreamReader(System.in));
     }
 
-    String next()
+    public String next()
     {
         while (st == null || !st.hasMoreElements()) {
             try {
@@ -28,16 +28,16 @@ public  class FastReader {
         return st.nextToken();
     }
 
-    int nextInt() { return Integer.parseInt(next()); }
+    public int nextInt() { return Integer.parseInt(next()); }
 
-    long nextLong() { return Long.parseLong(next()); }
+    public long nextLong() { return Long.parseLong(next()); }
 
-    double nextDouble()
+    public double nextDouble()
     {
         return Double.parseDouble(next());
     }
 
-    String nextLine()
+    public String nextLine()
     {
         String str = "";
         try {
