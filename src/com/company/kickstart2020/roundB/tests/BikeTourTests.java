@@ -1,6 +1,6 @@
-package com.company.kickstart2020.roundA.roundB.tests;
+package com.company.kickstart2020.roundB.tests;
 
-import com.company.kickstart2020.roundA.roundB.BikeTour;
+import com.company.kickstart2020.roundB.BikeTour;
 import org.junit.Before;
 import org.junit.Test;
 

@@ -1,4 +1,4 @@
-package com.company.kickstart2020.roundA.roundB;
+package com.company.kickstart2020.roundB;
 
 import com.company.FastReader;
 
