@@ -15,16 +15,16 @@ public class BusRoutesTest {
 
     @Test
     public void test2(){
-        assertEquals(6 , solver.solve(new int[]{3,7,2}, 3, 10));
+        assertEquals(6 , solver.solve(new long[]{3,7,2}, 3, 10));
     }
 
     @Test
     public void test3(){
-        assertEquals(99 , solver.solve(new int[]{11,10,5, 50}, 4, 100));
+        assertEquals(99 , solver.solve(new long[]{11,10,5, 50}, 4, 100));
     }
 
     @Test
     public void test4(){
-        assertEquals(1 , solver.solve(new int[]{1}, 1, 1));
+        assertEquals(1 , solver.solve(new long[]{1}, 1, 1));
     }
 }

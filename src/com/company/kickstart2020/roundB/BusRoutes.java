@@ -2,7 +2,7 @@ package com.company.kickstart2020.roundB;
 
 import com.company.FastReader;
 
-class BusRoutes {
+public class BusRoutes {
     public long solve(long[] arr, int n, long d) {
         long lastDay = d;
         for (int i = n - 1; i >= 0; i--)
